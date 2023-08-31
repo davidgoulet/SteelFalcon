@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://b55h3a4pcn3wh"]
+
+[ext_resource type="Script" path="res://Scripts/Player.gd" id="1_6vfal"]
+[ext_resource type="Texture2D" uid="uid://g0mffdkvk44f" path="res://Assets/FireCharacter.png" id="2_5hbgd"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g4ix5"]
+radius = 25.0
+height = 64.0
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_kry2y"]
+
+[node name="Player" type="Node2D"]
+
+[node name="FirePlayer" type="CharacterBody2D" parent="."]
+script = ExtResource("1_6vfal")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FirePlayer"]
+shape = SubResource("CapsuleShape2D_g4ix5")
+
+[node name="Sprite2D" type="Sprite2D" parent="FirePlayer"]
+texture_filter = 1
+texture = ExtResource("2_5hbgd")
+
+[node name="FirePlayer2" type="CharacterBody2D" parent="."]
+position = Vector2(100, 0)
+script = ExtResource("1_6vfal")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FirePlayer2"]
+position = Vector2(100, 0)
+shape = SubResource("CapsuleShape2D_g4ix5")
+
+[node name="Sprite2D" type="Sprite2D" parent="FirePlayer2"]
+texture_filter = 1
+material = SubResource("CanvasItemMaterial_kry2y")
+position = Vector2(100, 0)
+texture = ExtResource("2_5hbgd")
