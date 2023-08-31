@@ -1,0 +1,19 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://caj4g6ejml8pd"]
+
+[ext_resource type="Texture2D" uid="uid://co2ag4bk56mqc" path="res://Assets/Fireball.png" id="1_ay2eu"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ll37g"]
+texture = ExtResource("1_ay2eu")
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 8, 8, -8, -8, -8, -8, 8)
+
+[resource]
+physics_layer_0/collision_layer = 1
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Terrain 0"
+terrain_set_0/terrain_0/color = Color(0.501961, 0.345098, 0.25098, 1)
+terrain_set_0/terrain_1/name = "Terrain 1"
+terrain_set_0/terrain_1/color = Color(0.501961, 0.439216, 0.25098, 1)
+sources/0 = SubResource("TileSetAtlasSource_ll37g")
