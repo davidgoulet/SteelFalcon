@@ -1,3 +1,47 @@
-[gd_scene format=3 uid="uid://b87whlmu8fym"]
+[gd_scene load_steps=2 format=3 uid="uid://b87whlmu8fym"]
 
-[node name="InputManager" type="Node2D"]
+[sub_resource type="GDScript" id="GDScript_f1rwo"]
+script/source = "extends Node
+
+signal move_right()
+signal move_left()
+signal move_up()
+signal move_down()
+signal jump()
+signal double_jump()
+signal action()
+signal fire(mouse_position)
+
+var mouse_position
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	mouse_position = 0
+
+func _input(event):
+	if event is InputEventMouseMotion:
+		mouse_position = event.position
+
+	if event.is_action_pressed(\"move_right\"):
+		move_right.emit()
+
+	if event.is_action_pressed(\"move_left\"):
+		move_left.emit()
+
+	if event.is_action_pressed(\"move_up\"):
+		move_up.emit()
+
+	if event.is_action_pressed(\"move_down\"):
+		move_down.emit()
+
+	if event.is_action_pressed(\"jump\"):
+		jump.emit()
+
+	if event.is_action_pressed(\"fire\"):
+		fire.emit(mouse_position)
+	
+"
+
+[node name="InputManager" type="Node"]
+script = SubResource("GDScript_f1rwo")
