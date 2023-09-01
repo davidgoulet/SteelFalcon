@@ -7,6 +7,6 @@ func _ready():
 
 
 
-func _on_button_pressed():
+func _on_button_button_down():
 	var scene := load("res://Scenes/Main.tscn") as PackedScene
 	get_tree().change_scene_to_packed(scene)
