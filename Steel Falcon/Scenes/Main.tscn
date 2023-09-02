@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bv7folsf4xqwr"]
 
-[ext_resource type="PackedScene" uid="uid://uk2v10fifery" path="res://Scenes/World.tscn" id="1_3jqg0"]
+[ext_resource type="PackedScene" path="res://Scenes/World.tscn" id="1_3jqg0"]
 [ext_resource type="PackedScene" uid="uid://b55h3a4pcn3wh" path="res://Scenes/Player.tscn" id="2_fpndy"]
 
 [node name="Game" type="Node2D"]
@@ -9,3 +9,4 @@
 
 [node name="FirePlayer" parent="." instance=ExtResource("2_fpndy")]
 position = Vector2(147, 180)
+JumpVelocity = -1000.0
