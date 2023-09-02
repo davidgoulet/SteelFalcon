@@ -1,16 +1,17 @@
-[gd_scene load_steps=5 format=3 uid="uid://bv7folsf4xqwr"]
+[gd_scene load_steps=5 format=3 uid="uid://qq4yvsmvgb7j"]
 
 [ext_resource type="PackedScene" uid="uid://uk2v10fifery" path="res://Scenes/World.tscn" id="1_3jqg0"]
-[ext_resource type="Script" path="res://Scenes/Main.gd" id="1_qyu2y"]
+[ext_resource type="Script" path="res://Scripts/Main.gd" id="1_453vy"]
 [ext_resource type="PackedScene" uid="uid://b55h3a4pcn3wh" path="res://Scenes/Player.tscn" id="2_fpndy"]
 [ext_resource type="PackedScene" path="res://Scenes/PauseMenu.tscn" id="3_iqmxo"]
 
 [node name="Game" type="Node2D"]
-script = ExtResource("1_qyu2y")
+script = ExtResource("1_453vy")
 
 [node name="Level" parent="." instance=ExtResource("1_3jqg0")]
 
 [node name="FirePlayer" parent="." instance=ExtResource("2_fpndy")]
 position = Vector2(147, 180)
+Friction = 1200.0
 
 [node name="PauseMenu" parent="." instance=ExtResource("3_iqmxo")]
