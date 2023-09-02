@@ -9,6 +9,8 @@ height = 46.0
 
 [node name="FirePlayer" type="CharacterBody2D"]
 script = ExtResource("1_6vfal")
+Acceleration = 1200.0
+Friction = 2000.0
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -17,6 +19,5 @@ shape = SubResource("CapsuleShape2D_g4ix5")
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-texture_filter = 1
 sprite_frames = ExtResource("2_y4x3d")
 animation = &"Jumping"
