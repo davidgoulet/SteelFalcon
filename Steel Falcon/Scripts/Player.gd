@@ -22,6 +22,10 @@ func _physics_process(delta):
 
 	var direction = Input.get_axis("move_left", "move_right")
 	if direction:
+		if direction == -1:
+			$AnimatedSprite2D.flip_h = true
+		if direction == 1: 
+			$AnimatedSprite2D.flip_h = false
 		velocity.x = move_toward(velocity.x, Speed * direction, Acceleration * delta)
 		if is_on_floor():
 			$AnimatedSprite2D.play("Moving")
@@ -29,5 +33,5 @@ func _physics_process(delta):
 		velocity.x = move_toward(velocity.x, 0, Friction * delta)
 		if is_on_floor():
 			$AnimatedSprite2D.play("Standing")
-
+			
 	move_and_slide()
