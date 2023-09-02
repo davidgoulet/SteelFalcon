@@ -1,8 +1,8 @@
 [gd_resource type="TileSet" load_steps=7 format=3 uid="uid://caj4g6ejml8pd"]
 
-[ext_resource type="Texture2D" uid="uid://b2a51csca0jlv" path="res://Assets/Fire Environment/Ground_Basic.png" id="2_0in7l"]
+[ext_resource type="Texture2D" uid="uid://rf52iipbnmbh" path="res://Assets/Fire Environment/Ground_Basic.png" id="2_0in7l"]
 [ext_resource type="Texture2D" uid="uid://3rwl0cbx0lnh" path="res://Assets/Fire Environment/Background_W_LavaTop.png" id="3_nvt84"]
-[ext_resource type="Texture2D" uid="uid://b3o501cosc8wb" path="res://Assets/Fire Environment/Ground_Basic_Top.png" id="3_rv0rs"]
+[ext_resource type="Texture2D" uid="uid://dfk1q1j7icl18" path="res://Assets/Fire Environment/Ground_Basic_Top.png" id="3_rv0rs"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xlgxn"]
 texture = ExtResource("3_nvt84")
