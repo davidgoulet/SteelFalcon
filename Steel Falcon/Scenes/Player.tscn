@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b55h3a4pcn3wh"]
 
 [ext_resource type="Script" path="res://Scripts/Player.gd" id="1_6vfal"]
-[ext_resource type="SpriteFrames" uid="uid://ppnlutajnw4q" path="res://Assets/Fire Character/FireCharacter.tres" id="2_y4x3d"]
+[ext_resource type="SpriteFrames" uid="uid://bptc0w566tenw" path="res://Assets/Fire Character/FireCharacter.tres" id="2_y4x3d"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g4ix5"]
 radius = 22.0
@@ -19,4 +19,4 @@ shape = SubResource("CapsuleShape2D_g4ix5")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = ExtResource("2_y4x3d")
-animation = &"Standing"
+animation = &"Jumping"

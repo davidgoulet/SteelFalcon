@@ -1,0 +1,30 @@
+[gd_resource type="SpriteFrames" load_steps=2 format=3 uid="uid://bptc0w566tenw"]
+
+[ext_resource type="Texture2D" uid="uid://bu5eq4susa75f" path="res://Assets/Fire Character/Character_standing.png" id="1_aw8ro"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_aw8ro")
+}],
+"loop": true,
+"name": &"Jumping",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_aw8ro")
+}],
+"loop": true,
+"name": &"Moving",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_aw8ro")
+}],
+"loop": true,
+"name": &"Standing",
+"speed": 5.0
+}]
