@@ -4,10 +4,11 @@
 [ext_resource type="SpriteFrames" uid="uid://bptc0w566tenw" path="res://Assets/Fire Character/FireCharacter.tres" id="2_y4x3d"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g4ix5"]
-radius = 22.0
-height = 46.0
+radius = 27.0
+height = 62.0
 
 [node name="FirePlayer" type="CharacterBody2D"]
+position = Vector2(-124, -73)
 script = ExtResource("1_6vfal")
 Acceleration = 1200.0
 metadata/_edit_group_ = true
