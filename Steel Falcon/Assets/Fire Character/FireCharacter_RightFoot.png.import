@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://g0mffdkvk44f"
-path="res://.godot/imported/FireCharacter.png-22d79ef3a0654480fb85bc179c99472e.ctex"
+uid="uid://c2qw3u7c6cn1g"
+path="res://.godot/imported/FireCharacter_RightFoot.png-1f167aaf5ef02092038d45f042b6c708.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/FireCharacter.png"
-dest_files=["res://.godot/imported/FireCharacter.png-22d79ef3a0654480fb85bc179c99472e.ctex"]
+source_file="res://Assets/Fire Character/FireCharacter_RightFoot.png"
+dest_files=["res://.godot/imported/FireCharacter_RightFoot.png-1f167aaf5ef02092038d45f042b6c708.ctex"]
 
 [params]
 

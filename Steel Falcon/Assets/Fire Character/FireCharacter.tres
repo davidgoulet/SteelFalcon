@@ -1,0 +1,36 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://ppnlutajnw4q"]
+
+[ext_resource type="Texture2D" uid="uid://7vhb3i1bbjik" path="res://Assets/Fire Character/FireCharacter_SpittingFireBall.png" id="1_g7vef"]
+[ext_resource type="Texture2D" uid="uid://d7vttt0vloh7" path="res://Assets/Fire Character/FireCharacter_LeftFoot.png" id="2_hm1cr"]
+[ext_resource type="Texture2D" uid="uid://c2qw3u7c6cn1g" path="res://Assets/Fire Character/FireCharacter_RightFoot.png" id="3_xjisc"]
+[ext_resource type="Texture2D" uid="uid://dvinj2r1qu8mf" path="res://Assets/Fire Character/FireCharacter_Standing.png" id="4_xi82d"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_g7vef")
+}],
+"loop": true,
+"name": &"Jumping",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_hm1cr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_xjisc")
+}],
+"loop": true,
+"name": &"Moving",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_xi82d")
+}],
+"loop": true,
+"name": &"Standing",
+"speed": 5.0
+}]
