@@ -1,8 +1,13 @@
-[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://ccum66fauvuwj"]
+[gd_resource type="TileSet" load_steps=17 format=3 uid="uid://ccum66fauvuwj"]
 
 [ext_resource type="Texture2D" uid="uid://b2a51csca0jlv" path="res://Assets/Fire Environment/Ground_Basic.png" id="1_m2748"]
 [ext_resource type="Texture2D" uid="uid://b3o501cosc8wb" path="res://Assets/Fire Environment/Ground_Basic_Top.png" id="2_c1yqn"]
-[ext_resource type="Texture2D" uid="uid://cy0wmknuheg54" path="res://Assets/Fire Environment/Background_Basic.png" id="3_b3hvh"]
+[ext_resource type="Texture2D" uid="uid://bkguk311auuf5" path="res://Assets/Fire Environment/Background_Basic.png" id="3_b3hvh"]
+[ext_resource type="Texture2D" uid="uid://0ixqpycuonff" path="res://Assets/Fire Environment/Fire-platform_straight.png" id="4_87jg7"]
+[ext_resource type="Texture2D" uid="uid://f6mxv3r7278t" path="res://Assets/Fire Environment/Fire-platform.png" id="5_yltgr"]
+[ext_resource type="Texture2D" uid="uid://dd6xl7mpnfxrd" path="res://Assets/Fire Environment/Platform_Bottom.png" id="6_dj3i3"]
+[ext_resource type="Texture2D" uid="uid://cb3yf0li5rdxp" path="res://Assets/Fire Environment/Background_W_LavaBottom.png" id="7_dc8vc"]
+[ext_resource type="Texture2D" uid="uid://buyyjggwbofp6" path="res://Assets/Fire Environment/Background_W_LavaMiddle.png" id="8_2vdus"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l3of6"]
 texture = ExtResource("1_m2748")
@@ -204,9 +209,49 @@ texture_region_size = Vector2i(32, 32)
 5:5/0/physics_layer_0/angular_velocity = 0.0
 5:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c8psf"]
+texture = ExtResource("4_87jg7")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bop46"]
+texture = ExtResource("5_yltgr")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ckc8u"]
+texture = ExtResource("6_dj3i3")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cdn36"]
+texture = ExtResource("7_dc8vc")
+texture_region_size = Vector2i(192, 192)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tltls"]
+texture = ExtResource("8_2vdus")
+texture_region_size = Vector2i(192, 192)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+
 [resource]
 tile_size = Vector2i(32, 32)
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_l3of6")
 sources/1 = SubResource("TileSetAtlasSource_ayew5")
 sources/2 = SubResource("TileSetAtlasSource_xk1m3")
+sources/3 = SubResource("TileSetAtlasSource_c8psf")
+sources/4 = SubResource("TileSetAtlasSource_bop46")
+sources/5 = SubResource("TileSetAtlasSource_ckc8u")
+sources/6 = SubResource("TileSetAtlasSource_cdn36")
+sources/7 = SubResource("TileSetAtlasSource_tltls")
