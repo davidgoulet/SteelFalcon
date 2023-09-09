@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buyyjggwbofp6"
-path="res://.godot/imported/Background_W_LavaMiddle.png-a240c093dd9311db73fb1192c8030e34.ctex"
+uid="uid://b2xhyt7mig8fl"
+path="res://.godot/imported/AirCharacter_RightFoot.png-ac94484d13a04783fbfc65dc21cf3cb0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Fire/Fire Environment/Background_W_LavaMiddle.png"
-dest_files=["res://.godot/imported/Background_W_LavaMiddle.png-a240c093dd9311db73fb1192c8030e34.ctex"]
+source_file="res://Assets/Air/AirCharacter_RightFoot.png"
+dest_files=["res://.godot/imported/AirCharacter_RightFoot.png-ac94484d13a04783fbfc65dc21cf3cb0.ctex"]
 
 [params]
 

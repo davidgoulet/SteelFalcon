@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2a51csca0jlv"
-path="res://.godot/imported/Ground_Basic.png-88285aca124629f4f8b71b3c08b08ad4.ctex"
+path="res://.godot/imported/Ground_Basic.png-e756bfa005ed49879943d68a6473a687.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Fire Environment/Ground_Basic.png"
-dest_files=["res://.godot/imported/Ground_Basic.png-88285aca124629f4f8b71b3c08b08ad4.ctex"]
+source_file="res://Assets/Fire/Fire Environment/Ground_Basic.png"
+dest_files=["res://.godot/imported/Ground_Basic.png-e756bfa005ed49879943d68a6473a687.ctex"]
 
 [params]
 

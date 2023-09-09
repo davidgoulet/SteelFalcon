@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buyyjggwbofp6"
-path="res://.godot/imported/Background_W_LavaMiddle.png-a240c093dd9311db73fb1192c8030e34.ctex"
+uid="uid://bveln3u2stg4q"
+path="res://.godot/imported/Character_standing.png-c4e3ed33ead333f4608e81f30584951a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Fire/Fire Environment/Background_W_LavaMiddle.png"
-dest_files=["res://.godot/imported/Background_W_LavaMiddle.png-a240c093dd9311db73fb1192c8030e34.ctex"]
+source_file="res://Assets/Water/Water Character/Character_standing.png"
+dest_files=["res://.godot/imported/Character_standing.png-c4e3ed33ead333f4608e81f30584951a.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://y6r8vduay3bh"
-path="res://.godot/imported/FireCharacter_LeftFoot.png-fab0958d92f0ef88c59282b8f37e0f5a.ctex"
+path="res://.godot/imported/FireCharacter_LeftFoot.png-edc6245cc262af39f3a09875e993225c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Fire Character/FireCharacter_LeftFoot.png"
-dest_files=["res://.godot/imported/FireCharacter_LeftFoot.png-fab0958d92f0ef88c59282b8f37e0f5a.ctex"]
+source_file="res://Assets/Fire/Fire Character/FireCharacter_LeftFoot.png"
+dest_files=["res://.godot/imported/FireCharacter_LeftFoot.png-edc6245cc262af39f3a09875e993225c.ctex"]
 
 [params]
 

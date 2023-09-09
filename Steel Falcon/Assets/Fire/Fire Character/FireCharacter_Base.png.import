@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxxbsayrj47yj"
-path="res://.godot/imported/FireCharacter_Base.png-01f231a985c90a054b6e33126b1206cc.ctex"
+path="res://.godot/imported/FireCharacter_Base.png-40e68ab1be7ce45029468c6ba4652e54.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Fire Character/FireCharacter_Base.png"
-dest_files=["res://.godot/imported/FireCharacter_Base.png-01f231a985c90a054b6e33126b1206cc.ctex"]
+source_file="res://Assets/Fire/Fire Character/FireCharacter_Base.png"
+dest_files=["res://.godot/imported/FireCharacter_Base.png-40e68ab1be7ce45029468c6ba4652e54.ctex"]
 
 [params]
 

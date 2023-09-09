@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bu5eq4susa75f"
-path="res://.godot/imported/Character_standing.png-c837b76105d8d6c5805ba385b8f930a7.ctex"
+path="res://.godot/imported/Character_standing.png-7482831ffd80f3df3ce3f1b33cf6acc2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Fire Character/Character_standing.png"
-dest_files=["res://.godot/imported/Character_standing.png-c837b76105d8d6c5805ba385b8f930a7.ctex"]
+source_file="res://Assets/Fire/Fire Character/Character_standing.png"
+dest_files=["res://.godot/imported/Character_standing.png-7482831ffd80f3df3ce3f1b33cf6acc2.ctex"]
 
 [params]
 

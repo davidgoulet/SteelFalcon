@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buyyjggwbofp6"
-path="res://.godot/imported/Background_W_LavaMiddle.png-a240c093dd9311db73fb1192c8030e34.ctex"
+uid="uid://be0jb4xp4xolq"
+path="res://.godot/imported/WaterCharacter_Evaporates.png-70c79321d66c8fb83d825de5dc9c3532.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Fire/Fire Environment/Background_W_LavaMiddle.png"
-dest_files=["res://.godot/imported/Background_W_LavaMiddle.png-a240c093dd9311db73fb1192c8030e34.ctex"]
+source_file="res://Assets/Water/Water Character/WaterCharacter_Evaporates.png"
+dest_files=["res://.godot/imported/WaterCharacter_Evaporates.png-70c79321d66c8fb83d825de5dc9c3532.ctex"]
 
 [params]
 
